@@ -1,17 +1,8 @@
 import Navbar from '@/components/Navbar'
-import Script from 'next/script'
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
-      {/* Carga del script de Google AdSense */}
-      <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5659039143781049"
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
-      />
-
       <Navbar />
       <header className="max-w-4xl mx-auto px-4 py-20 text-center space-y-6">
         <h1 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">
