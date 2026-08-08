@@ -1,6 +1,6 @@
 {
-  "/page": "app/page.js",
-  "/mods/page": "app/mods/page.js",
   "/tlauncher/page": "app/tlauncher/page.js",
+  "/mods/page": "app/mods/page.js",
+  "/page": "app/page.js",
   "/conexion/page": "app/conexion/page.js"
 }

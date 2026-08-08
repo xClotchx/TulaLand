@@ -515,6 +515,10 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -533,8 +537,14 @@ video {
 .h-16 {
   height: 4rem;
 }
+.h-auto {
+  height: auto;
+}
 .min-h-screen {
   min-height: 100vh;
+}
+.w-full {
+  width: 100%;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -598,6 +608,9 @@ video {
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .rounded {
   border-radius: 0.25rem;
 }
@@ -657,6 +670,10 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-6 {
   padding: 1.5rem;

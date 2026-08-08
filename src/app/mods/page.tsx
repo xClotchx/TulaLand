@@ -33,7 +33,7 @@ export default function ModsPage() {
         <p className="text-slate-400">Aquí tienes todos los complementos necesarios para jugar en Tula Land 2k26.</p>
 
         {loading ? (
-          <p className="text-slate-500">Cargando mods desde Supabase...</p>
+          <p className="text-slate-500">Cargando mods...</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {mods.map((mod) => (
