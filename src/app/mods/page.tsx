@@ -1,5 +1,7 @@
 'use client'
+
 import { useEffect, useState } from 'react'
+import Script from 'next/script'
 import { supabase } from '@/lib/supabase'
 import Navbar from '@/components/Navbar'
 
@@ -27,6 +29,14 @@ export default function ModsPage() {
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
+      {/* Carga del script de Google AdSense */}
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5659039143781049"
+        crossOrigin="anonymous"
+        strategy="afterInteractive"
+      />
+
       <Navbar />
       <div className="max-w-5xl mx-auto px-4 py-12 space-y-8">
         <h1 className="text-3xl font-extrabold text-emerald-400">Lista de Mods Oficiales</h1>

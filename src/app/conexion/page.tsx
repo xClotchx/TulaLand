@@ -1,8 +1,17 @@
 import Navbar from '@/components/Navbar'
+import Script from 'next/script'
 
 export default function ConexionPage() {
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
+      {/* Carga del script de Google AdSense */}
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5659039143781049"
+        crossOrigin="anonymous"
+        strategy="afterInteractive"
+      />
+
       <Navbar />
       <div className="max-w-3xl mx-auto px-4 py-12 space-y-6">
         <h1 className="text-3xl font-extrabold text-emerald-400">Conexión mediante Tailscale</h1>
