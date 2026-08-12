@@ -67,6 +67,71 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Sección Lo Nuevo: Nuevos Mods Agregados */}
+      <section className="max-w-6xl mx-auto px-4 pt-20 pb-10 space-y-8">
+        <div className="text-center space-y-3 animate-rise">
+          <span className="font-pixel text-[10px] text-ember tracking-wider">ACTUALIZACIÓN RECIENTE</span>
+          <h2 className="font-display text-3xl md:text-4xl font-bold text-slate-100">
+            Lo nuevo en el servidor
+          </h2>
+          <p className="text-slate-400 max-w-2xl mx-auto text-lg">
+            Hemos integrado mejoras esenciales para potenciar la jugabilidad, el almacenamiento y la comodidad de todos.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Collective</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Librería y núcleo optimizado que asegura la compatibilidad y estabilidad general de los sistemas del servidor.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Infinito Trading</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Evita que los aldeanos se queden sin stock o bloqueen sus ofertas, permitiendo un comercio fluido e ilimitado.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Curios API</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Añade ranuras de inventario especializadas para accesorios y mochilas, liberando tu armadura principal.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Carry On</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Permite levantar, transportar y reubicar cofres con objetos y ciertas entidades directamente con las manos.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden sm:col-span-2 lg:col-span-2">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Corail Tombstone</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Crea una tumba segura al morir que guarda automáticamente tu inventario completo y experiencia, evitando perder tu progreso.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Mecánicas */}
       <section className="max-w-6xl mx-auto px-4 py-20 space-y-14">
         <div className="text-center space-y-4 animate-rise">
