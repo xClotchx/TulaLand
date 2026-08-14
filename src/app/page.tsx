@@ -32,8 +32,7 @@ export default function Home() {
           </h1>
 
           <p className="text-lg md:text-2xl text-slate-200/90 max-w-3xl mx-auto leading-relaxed font-light">
-            El servidor definitivo de Minecraft con mods pesados, exploración extrema,
-            dimensiones ocultas y combates dinámicos entre amigos.
+            El servidor comunista.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 pt-4">
@@ -84,9 +83,9 @@ export default function Home() {
             <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
               NUEVO
             </div>
-            <h3 className="font-display text-lg font-bold text-slate-100">Collective</h3>
+            <h3 className="font-display text-lg font-bold text-slate-100">AppleSkin</h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Librería y núcleo optimizado que asegura la compatibilidad y estabilidad general de los sistemas del servidor.
+              Añade varias mejoras de HUD relacionadas con los alimentos.
             </p>
           </div>
 
@@ -94,9 +93,9 @@ export default function Home() {
             <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
               NUEVO
             </div>
-            <h3 className="font-display text-lg font-bold text-slate-100">Infinito Trading</h3>
+            <h3 className="font-display text-lg font-bold text-slate-100">Jade</h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Evita que los aldeanos se queden sin stock o bloqueen sus ofertas, permitiendo un comercio fluido e ilimitado.
+              Muestra una pequeña interfaz flotante y elegante en la parte superior de la pantalla indicando qué bloque o mob estás mirando, a qué mod pertenece y su estado actual.
             </p>
           </div>
 
@@ -104,9 +103,9 @@ export default function Home() {
             <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
               NUEVO
             </div>
-            <h3 className="font-display text-lg font-bold text-slate-100">Curios API</h3>
+            <h3 className="font-display text-lg font-bold text-slate-100">Dynamic Surroundings</h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Añade ranuras de inventario especializadas para accesorios y mochilas, liberando tu armadura principal.
+              Mejora masivamente el apartado sonoro y visual del juego con sonidos ambientales dinámicos y partículas atmosféricas.
             </p>
           </div>
 
@@ -114,9 +113,29 @@ export default function Home() {
             <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
               NUEVO
             </div>
-            <h3 className="font-display text-lg font-bold text-slate-100">Carry On</h3>
+            <h3 className="font-display text-lg font-bold text-slate-100">Camera Overhaul</h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Permite levantar, transportar y reubicar cofres con objetos y ciertas entidades directamente con las manos.
+              Modifica el movimiento de la cámara al caminar, correr o saltar, añadiendo un balanceo dinámico y orgánico.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Dynamic Lights</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Permite que las antorchas en la mano y objetos encendidos iluminen dinámicamente el entorno en tiempo real.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Cloth Config API</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Librería de configuración esencial para personalizar y hacer funcionar correctamente otros mods visuales.
             </p>
           </div>
 
@@ -124,9 +143,49 @@ export default function Home() {
             <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
               NUEVO
             </div>
-            <h3 className="font-display text-lg font-bold text-slate-100">Corail Tombstone</h3>
+            <h3 className="font-display text-lg font-bold text-slate-100">Born in Chaos</h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Crea una tumba segura al morir que guarda automáticamente tu inventario completo y experiencia, evitando perder tu progreso.
+              Introduce criaturas de la noche aterradoras, mutantes y jefes errantes que aparecen en la superficie durante los eclipses o noches oscuras.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">GeckoLib</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Motor de animación y renderizado en 3D avanzado, requerido para la correcta visualización de criaturas complejas.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Room for Two</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Mod de utilidad e interacción de juego para optimizar mecánicas y espacios compartidos entre jugadores.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Sort Chest</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Añade botones y funciones rápidas para ordenar automáticamente el inventario de cofres y contenedores.
+            </p>
+          </div>
+
+          <div className="bg-night-panel border border-ember/30 p-6 rounded-2xl space-y-3 relative overflow-hidden sm:col-span-2 lg:col-span-2">
+            <div className="absolute top-0 right-0 bg-ember text-night font-pixel text-[8px] px-2 py-0.5 rounded-bl font-bold">
+              NUEVO
+            </div>
+            <h3 className="font-display text-lg font-bold text-slate-100">Enchantment Descriptions</h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Muestra descripciones claras y detalladas de lo que hace cada encantamiento directamente en la interfaz del juego.
             </p>
           </div>
         </div>
