@@ -27,10 +27,10 @@ export default function ModsPage() {
     fetchMods()
   }, [])
 
-  // Tomamos los últimos 5 mods agregados (asumiendo que un ID mayor o un campo created_at define los más recientes)
+  // Tomamos los últimos 13 mods agregados (asumiendo que un ID mayor o un campo created_at define los más recientes)
   const recentMods = [...mods]
     .sort((a, b) => (b.id ?? 0) - (a.id ?? 0))
-    .slice(0, 11)
+    .slice(0, 13)
 
   return (
     <main className="min-h-screen bg-night text-slate-100">
